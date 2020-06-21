@@ -1,0 +1,24 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	position: relative;
+	min-height: 100vh;
+	width: 100%;
+	background: rgb(66, 55, 216) url('../images/email.png');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.ingresar-email {
+	position: absolute;
+	top: 50px;
+	right: 50px;
+}
